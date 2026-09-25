@@ -50,7 +50,7 @@ export function HeroRoom({ imageSrc, imageAlt, title, subtitle, priority = true 
       <div className="relative min-h-[70vh] xl:min-h-[calc(100svh-var(--header-h))]">
         <RoomPhoto src={imageSrc} alt={imageAlt} priority={priority} />
         <div
-          className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[rgba(26,23,20,0.78)] to-transparent"
+          className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_top,rgba(26,23,20,0.8)_0%,rgba(26,23,20,0.62)_28%,rgba(26,23,20,0.48)_48%,rgba(26,23,20,0.4)_62%,rgba(26,23,20,0.22)_80%,transparent_100%),linear-gradient(to_right,rgba(26,23,20,0.62)_0%,rgba(26,23,20,0.4)_32%,rgba(26,23,20,0.16)_52%,transparent_70%)]"
           aria-hidden="true"
         />
         <div className="relative z-10 flex min-h-[70vh] flex-col justify-end xl:min-h-[calc(100svh-var(--header-h))]">
