@@ -6,12 +6,16 @@
 
 export const site = {
   company: "Professional Craftsman Services",
+  legalName: "Professional Craftsman Services LLC",
+  operator: "Matt Lawver",
   nap: "{{NAP}}",
   phone: "{{PHONE}}",
   /** tel: href — keep placeholder literal until a real number exists */
   phoneTel: "{{PHONE}}",
-  city: "{{CITY}}",
-  cities: "{{CITIES}}",
+  city: "Thornton, Colorado",
+  /** Service-area phrase for contact line (city is already prefixed separately) */
+  cities:
+    "greater Denver metro, Golden Gate Canyon, adjacent Front Range neighborhoods, and surrounding mountain communities",
   hours: "{{HOURS}}",
   years: "{{YEARS}}",
   license: "{{LICENSE}}",
@@ -27,7 +31,9 @@ export const site = {
   promo: "{{PROMO}}",
   /** Rating chip text only — never invent a numeric average */
   rating: "{{RATING}}",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com",
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    "https://professional-craftsman-services.vercel.app",
 } as const;
 
 export type SiteTokens = typeof site;

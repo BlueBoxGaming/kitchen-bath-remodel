@@ -18,7 +18,7 @@ export default function AboutPage() {
       <PageIntro
         eyebrow="Studio"
         h1={`About ${site.company}`}
-        lede={`We remodel kitchens and bathrooms in ${site.city} and surrounding areas (${site.cities}). The work is design-build focused: measure twice, select against a written scope, then build with clear expectations about dust, schedule, and who is in your house. Years in market: ${site.years}. Showroom: ${site.showroom}. How we staff jobs: ${site.crewModel}.`}
+        lede={`${site.legalName} is operated by ${site.operator}. We remodel kitchens and bathrooms based in ${site.city}, serving ${site.cities}. The work is design-build focused: measure twice, select against a written scope, then build with clear expectations about dust, schedule, and who is in your house.`}
       />
 
       <section className="section-y border-t border-line bg-bg-elevated">

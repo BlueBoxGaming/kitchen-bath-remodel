@@ -1,4 +1,8 @@
-import { site } from "@/content/site";
-
-/** Service-area cities as data — replace with real list */
-export const serviceCities: string[] = [site.city, site.cities];
+/** Service-area place names from confirmed public facts — do not invent extra towns */
+export const serviceCities: string[] = [
+  "Thornton",
+  "Golden Gate Canyon",
+  "greater Denver metro",
+  "Front Range",
+  "surrounding mountain communities",
+];
