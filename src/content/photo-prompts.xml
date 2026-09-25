@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompts>
+  <note>XML prompts used to generate stand-in photos. Not client projects. No people, text, logos, or readable brands.</note>
+  <image file="hero-home.jpg" aspect="16:9">
+    <prompt>
+      <subject>Photorealistic finished residential kitchen, no people</subject>
+      <environment>
+        <setting>US suburban home, open kitchen with a large island and three stools, warm white oak cabinets, pale quartz counters, brass faucet, plaster walls in warm cream</setting>
+        <time>late morning</time>
+      </environment>
+      <lighting>Soft north window light plus two linen pendants, gentle shadows, no harsh flash</lighting>
+      <composition>Wide architectural photograph, eye-level, room fills the frame, 16:9</composition>
+      <style>Editorial interior photography, natural color, high detail materials, not a 3D render look</style>
+      <constraints>No people, no faces, no hands, no text, no logos, no watermark, no price tags, no appliances with readable brand names</constraints>
+    </prompt>
+  </image>
+  <image file="hero-kitchen.jpg" aspect="16:9">
+    <prompt>
+      <subject>Photorealistic contemporary kitchen remodel, no people</subject>
+      <environment>
+        <setting>US home kitchen with a walnut island, flat-panel perimeter cabinets in warm greige, stone backsplash, wide casement window over the sink</setting>
+        <time>afternoon</time>
+      </environment>
+      <lighting>Directional window light, one warm under-cabinet glow, realistic reflections on stone</lighting>
+      <composition>Wide eye-level architectural photo, island in the foreground, 16:9, room fills the frame</composition>
+      <style>Magazine interior photography, photoreal, natural color</style>
+      <constraints>No people, no faces, no text, no logos, no watermark, no readable brand names</constraints>
+    </prompt>
+  </image>
+  <image file="hero-bath.jpg" aspect="16:9">
+    <prompt>
+      <subject>Photorealistic finished primary bathroom, no people</subject>
+      <environment>
+        <setting>US primary bath with a walk-in shower in warm limestone tile, a freestanding oval tub, a white oak double vanity, unlacquered brass fixtures</setting>
+        <time>morning</time>
+      </environment>
+      <lighting>Soft window light, warm recessed lights at low level, no clinical blue light</lighting>
+      <composition>Wide eye-level architectural photo, 16:9, finished room fills the frame</composition>
+      <style>Editorial interior photography, photoreal, natural materials</style>
+      <constraints>No people, no faces, no text, no logos, no watermark, no readable brand names</constraints>
+    </prompt>
+  </image>
+  <image file="kitchen-after-1.jpg" aspect="4:3">
+    <prompt>
+      <subject>Finished open kitchen with island seating, transitional contemporary, no people</subject>
+      <environment><setting>White oak shaker cabinets, waterfall quartz island with four stools, brass pulls, warm cream zellige backsplash, oak floor</setting></environment>
+      <lighting>Large window on the left, soft daylight, two glass pendants</lighting>
+      <composition>4:3 interior photo, eye level, centered on the island</composition>
+      <style>Photoreal architectural photography</style>
+      <constraints>No people, no text, no logos, no watermark, no readable brands</constraints>
+    </prompt>
+  </image>
+  <image file="kitchen-before-1.jpg" aspect="4:3" reference="kitchen-after-1.jpg">
+    <prompt>
+      <subject>The same kitchen before remodel, dated but livable, no people</subject>
+      <environment><setting>Same room and camera. Honey oak raised-panel cabinets, beige laminate counters, fluorescent ceiling box, old coil range. Island becomes a small laminate peninsula.</setting></environment>
+      <composition>Match the reference framing, 4:3, eye level</composition>
+      <style>Photoreal snapshot of a real older US kitchen</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="kitchen-after-2.jpg" aspect="4:3">
+    <prompt>
+      <subject>Finished galley kitchen, traditional farmhouse, no people</subject>
+      <environment><setting>Narrow galley, soft green-gray shaker cabinets, white apron sink, marble-look counters, sash window at the far end</setting></environment>
+      <composition>4:3, standing at the entrance looking down the galley</composition>
+      <style>Photoreal interior photography</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="kitchen-before-2.jpg" aspect="4:3" reference="kitchen-after-2.jpg">
+    <prompt>
+      <subject>The same galley kitchen before remodel, no people</subject>
+      <environment><setting>Same galley and end window. Honey oak cabinets, beige laminate, drop-in sink, old white dishwasher</setting></environment>
+      <composition>Match the reference camera looking down the galley, 4:3</composition>
+      <style>Photoreal older US kitchen photograph</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="kitchen-after-3.jpg" aspect="4:3">
+    <prompt>
+      <subject>Finished modern flat-panel kitchen, no people</subject>
+      <environment><setting>Handleless matte white tall cabinets, rift oak lowers, pale concrete-look counters, integrated sink</setting></environment>
+      <composition>4:3, three-quarter view of the main cabinet run</composition>
+      <style>Photoreal architectural photography</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="kitchen-before-3.jpg" aspect="4:3" reference="kitchen-after-3.jpg">
+    <prompt>
+      <subject>The same kitchen before a modern remodel, builder-grade, no people</subject>
+      <environment><setting>Same cabinet run and window. Honey oak raised-panel cabinets, speckled beige laminate, white builder appliances</setting></environment>
+      <composition>Match the reference three-quarter framing, 4:3</composition>
+      <style>Photoreal 2000s US builder kitchen</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="bath-after-1.jpg" aspect="4:3">
+    <prompt>
+      <subject>Finished primary bathroom with a double vanity, no people</subject>
+      <environment><setting>Two-sink white oak vanity, quartz top, frameless mirror, warm stone walk-in shower</setting></environment>
+      <composition>4:3 eye-level photo facing the vanity</composition>
+      <style>Photoreal editorial interior photography</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="bath-before-1.jpg" aspect="4:3" reference="bath-after-1.jpg">
+    <prompt>
+      <subject>The same primary bathroom before remodel, no people</subject>
+      <environment><setting>Same vanity wall. 1990s cultured-marble double vanity, gold-frame mirror, fiberglass tub-shower with a sliding door, vinyl floor</setting></environment>
+      <composition>Match the reference framing facing the vanity, 4:3</composition>
+      <style>Photoreal older US bathroom photograph</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="bath-after-2.jpg" aspect="4:3">
+    <prompt>
+      <subject>Finished modern tub-to-shower conversion, no people</subject>
+      <environment><setting>Walk-in shower in warm gray large-format tile, linear drain, floating oak vanity, matte black fixtures, no tub</setting></environment>
+      <composition>4:3, camera just inside the door</composition>
+      <style>Photoreal architectural photography</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="bath-before-2.jpg" aspect="4:3" reference="bath-after-2.jpg">
+    <prompt>
+      <subject>The same bathroom before a tub-to-shower conversion, no people</subject>
+      <environment><setting>Same footprint and frosted window. Alcove bathtub with a beige tile surround and shower curtain, white vanity, vinyl floor. The tub must still be there.</setting></environment>
+      <composition>Match the reference camera just inside the door, 4:3</composition>
+      <style>Photoreal older US hall bath</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="bath-after-3.jpg" aspect="4:3">
+    <prompt>
+      <subject>Finished small guest bathroom, traditional farmhouse, no people</subject>
+      <environment><setting>White console sink, brass bridge faucet, beadboard, hexagonal marble floor, sash window</setting></environment>
+      <composition>4:3 corner view showing sink and window</composition>
+      <style>Photoreal interior photography</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+  <image file="bath-before-3.jpg" aspect="4:3" reference="bath-after-3.jpg">
+    <prompt>
+      <subject>The same small guest bathroom before remodel, no people</subject>
+      <environment><setting>Same corner and window. Beige fiberglass vanity, standard toilet, sheet vinyl, basic mirror, chrome faucet</setting></environment>
+      <composition>Match the reference corner view, 4:3</composition>
+      <style>Photoreal dated US guest bath</style>
+      <constraints>No people, no text, no logos, no watermark</constraints>
+    </prompt>
+  </image>
+</prompts>
